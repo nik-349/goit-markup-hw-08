@@ -1,0 +1,36 @@
+.social-photo-gal {
+  padding-bottom: 94px;
+  & {
+    position: relative;
+  }
+}
+
+.profile {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $staff-name;
+}
+.relative-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 225px;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.relative-text {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}

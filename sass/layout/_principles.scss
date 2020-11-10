@@ -1,0 +1,15 @@
+.principles-categories .container {
+  display: flex;
+  align-items: center;
+}
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  padding-top: 94px;
+  width: 279px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}

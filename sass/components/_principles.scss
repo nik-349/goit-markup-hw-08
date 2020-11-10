@@ -1,0 +1,63 @@
+.principles {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  &-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+.pix-principles-one::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/ante.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.pix-principles-two::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/clo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.pix-principles-three::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/diagram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.pix-principles-four::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/astronaut.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}

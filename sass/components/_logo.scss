@@ -1,0 +1,38 @@
+.footer-color-logo-first,
+.footer-color-logo-second {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.color-logo-first,
+.color-logo-second {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.color-logo-first {
+  color: #2196f3;
+}
+.color-logo-second {
+  color: #000000;
+}
+
+.footer-color-logo-first {
+  color: #2196f3;
+}
+.footer-color-logo-second {
+  color: #ffffff;
+}
+
+.categories-li:hover,
+.categories-li:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}

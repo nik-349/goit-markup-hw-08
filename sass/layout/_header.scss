@@ -1,0 +1,82 @@
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header {
+  border: 1px solid #ececec;
+}
+.header {
+  padding: 24px 0;
+}
+.logo-footer {
+  padding-top: 60px;
+}
+.address-list {
+  margin-top: 9px;
+}
+.feedback-list {
+  margin-top: 9px;
+}
+.telephone-list {
+  margin-top: 9px;
+  padding-bottom: 60px;
+}
+.footer-link-social {
+  display: flex;
+}
+.footer-information-two .container {
+  display: flex;
+}
+.text-footer {
+  padding-top: 72px;
+  padding-left: 84px;
+}
+.footer-link-social {
+  padding-left: 84px;
+}
+.size-list {
+  margin-top: 20px;
+}
+.size-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.text-footer-send {
+  padding-top: 72px;
+  padding-left: 93px;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.navigation-list-item {
+  position: relative;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+}
+.navigation-list {
+  display: flex;
+}
+.address-mail-tel {
+  display: flex;
+}
+
+.address-mail-tel {
+  margin-left: auto;
+}
+.address-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.phone-svg,
+.phone-svg-two {
+  margin-right: 10px;
+}
+
+.footer-information-two {
+  background-color: #2f303a;
+}

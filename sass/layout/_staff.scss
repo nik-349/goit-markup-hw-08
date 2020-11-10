@@ -1,0 +1,42 @@
+.staff {
+  padding-top: 94px;
+  margin-bottom: 50px;
+  &-container {
+    display: flex;
+    padding-bottom: 94px;
+  }
+  &-people-work {
+    text-align: center;
+  }
+  &-people-position {
+    text-align: center;
+    & {
+      margin-top: 10px;
+    }
+  }
+}
+.staff-people .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+  & {
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+}
+
+.social-photo:not(:last-child) {
+  margin-right: 30px;
+}
+.name-social {
+  padding-top: 30px;
+}
+
+.social-icon-list 
+.social-icon-one:not(:last-child) {
+  margin-right: 10px;
+}

@@ -1,0 +1,16 @@
+.text-permanent {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+.permanent-list {
+  display: flex;
+  justify-content: center;
+}
+
+.permanent-item {
+  padding-bottom: 94px;
+  &:not(:last-child) {
+  margin-right: 30px;
+}
+}
+

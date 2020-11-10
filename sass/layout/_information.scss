@@ -1,0 +1,27 @@
+.footer-information {
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../image/bg/background.jpg");
+}
+.footer-information .container {
+  display: flex;
+  flex-direction: column;
+}
+.heading-text {
+  width: 696px;
+  height: 120px;
+}
+.text-item {
+  padding-top: 200px;
+  padding-left: 244px;
+  padding-right: 244px;
+  margin-bottom: 30px;
+}
+.button-item {
+  padding-left: 485px;
+  padding-right: 485px;
+  padding-bottom: 200px;
+}
